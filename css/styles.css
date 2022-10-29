@@ -932,7 +932,6 @@ background-color: var(--color-accent);
  }
 
  .clients {
-background-color: #F5F5F5;
 padding: 94px 0;
 }
 
@@ -946,22 +945,27 @@ align-items: center;
 justify-content: center;
 }
 
-.block-clients {
+.link-clients {
+display: flex;
+gap: 30px;
+
+}
+
+.link-clients-icon {
 width: 170px;
 height: 92px;
 display: flex;
 align-items: center;
 justify-content: center;
-fill: #AFB1B8;;
+fill: #AFB1B8;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
-
 }
 
-.block-clients:hover {
+.link-clients-icon:hover,
+.link-clients-icon:focus {
 fill: var(--color-accent);
-border: solid var(--color-accent);
-}
+border: solid var(--color-accent);}
 
 .portfolio-title {
 padding: 20px 24px 4px 24px;
