@@ -44,6 +44,7 @@ p {margin: 0;
 .container {
 max-width: 1600px;
 margin: 0 auto;
+padding: 0 15px;
 }
 
 .container-contact {
@@ -598,6 +599,10 @@ border-radius: 50%;
 
 
 .slogan {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.15;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-bottom: 20px;
 }
