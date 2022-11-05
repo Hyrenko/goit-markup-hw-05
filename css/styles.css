@@ -99,6 +99,7 @@ gap: 50px;
 .address-header {
 color: var(--color-text);
 text-decoration: none;
+cursor: default;
 letter-spacing: 0.03em;
 }
 
@@ -570,6 +571,7 @@ letter-spacing: 0.03em;
 }
 
 .text {
+color: var(--color-prymal);
 font-family: "Roboto",
 sans-serif; 
  font-style: normal;
