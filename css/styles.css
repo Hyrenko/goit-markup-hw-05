@@ -80,7 +80,7 @@ text-decoration: none;
 margin-right: 94px;
 }
 
-.logo:hover
+.logo:hover,
 .logo:focus {
 color: var(--color-accent);
 }
@@ -92,22 +92,30 @@ color: var(--color-accent);
 .container-list {
 display: flex;
 align-items: center;
+justify-content: center;
 gap: 50px;
 }
 
 .address-header {
 color: var(--color-text);
-cursor: default;
 text-decoration: none;
 letter-spacing: 0.03em;
 }
 
-.address-header:hover {
+.address-header:hover,
+.address-header:focus {
 color: var(--color-accent);
 fill: var(--color-accent);
 }
 
-.address-mail:hover {
+.icon-smartphone {
+margin-right: 10px;
+fill: currentColor;
+
+}
+
+.address-mail:hover,
+.address-mail:focus {
 color: var(--color-accent);
 fill: var(--color-accent);
 }
@@ -374,7 +382,8 @@ background: rgba(255, 255, 255, 0.1);
 border-radius: 50%;
  }
 
- .icon-link-team:hover {
+ .icon-link-team:hover,
+ .icon-link-team:focus {
 fill: #FFFFFF;
 background-color: var(--color-accent);
  }
@@ -410,7 +419,8 @@ border-radius: 4px;
 
 }
 
-.link-clients-icon:hover {
+.link-clients-icon:hover,
+.link-clients-icon:focus {
 fill: var(--color-accent);
 border: solid var(--color-accent);
 }
@@ -590,7 +600,8 @@ letter-spacing: 0.03em;
 
 }
 
-.icon-link:hover {
+.icon-link:hover,
+.icon-link:focus {
 background-color: var(--color-accent);
 
 }
@@ -678,6 +689,29 @@ height: 581px;
 background-color: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
+}
+
+.title-form {
+padding: 40px 40px 12px 40px;
+color: var(--color-black);
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.model-form {
+}
+
+.form-label {
+display: block;
+}
+
+.model-input {
+margin: 4 px 10px 40px;
+width: 100%;
+height: 40px;
 }
 
 .is-hidden {
