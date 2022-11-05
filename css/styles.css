@@ -21,10 +21,12 @@ body {
 color: var(--color-text);
 background-color: white;
 font-family: "Roboto", sans-serif;
+text-decoration: none;
 font-size: 14px;
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: 0.03em}
+letter-spacing: 0.03em
+}
 
 .list{
 list-style: none;
@@ -418,7 +420,6 @@ justify-content: center;
 fill: #AFB1B8;;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
-
 }
 
 .link-clients-icon:hover,
@@ -430,10 +431,15 @@ border: solid var(--color-accent);
 .portfolio-title {
 padding: 20px 24px 4px 24px;
 font-size: 18px;
+text-decoration: none;
 font-weight: 700;
 line-height: 2;
 letter-spacing: 0.03em;
 color: var(--color-black)
+}
+
+.link-text {
+text-decoration: none;
 }
 
 .imeg-text {
@@ -445,13 +451,8 @@ border-radius: 0px 0px 4px 4px;
 
 .section-portfolio {
 padding: 94px 0;
+text-decoration: none;
 }
-
-/* .portfolio-title:hover,
-.portfolio-title:focus {
-background-color:var(--color-accent);
-color: var(--color-prymal);
-} */
 
 .portfolio-button {
 height: 40px;
@@ -538,6 +539,7 @@ padding: 63px 24px;
 
 .portfolio-text {
 padding: 0 24px 20px 24px;
+text-decoration: none;
 color: var(--color-text);
 font-size: 16px;
 font-weight: 400;
